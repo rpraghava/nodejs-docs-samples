@@ -45,7 +45,7 @@ function trackEvent (category, action, label, value, cb) {
     el: label,
     // Event value.
     ev: value
-  };
+  }nmvdlskm f,,;
 
   return got.post('http://www.google-analytics.com/collect', {
     form: data
